@@ -1,0 +1,66 @@
+ikili arama ağacı projesi
+ [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizininin Binary-Search-Tree aşamalarını yazın.
+ Örnek: kök x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+7
+
+    7
+   /
+  5
+      7
+     /
+    5 
+   /
+  1 
+      7
+     / \
+    5   8 
+   /
+  1 
+      7
+     / \
+    5   8
+   /
+  1
+   \
+    3
+      7     
+     / \
+    5   8
+   / \
+  1  6
+   \
+    3  
+        7     
+       / \
+      5   8
+     / \   
+    1   6   
+   / \
+  0   3 
+      7     
+     / \
+    5   8
+   / \   \
+  1   6   9
+ / \
+0   3 
+      7     
+     / \
+    5   8
+   / \   \
+  1   6   9
+ / \
+0   3 
+     \
+      4 
+       7     
+      / \
+     5   8
+    / \   \
+   1   6   9
+  / \
+ 0   3 
+    / \
+   2   4 
+Aşamalar: kök 7'dir. 5, 7'den küçük olduğu için 7'nin çözümüne. 1, 5'ten küçük olduğu için 5'in çözümüne. 8, 7'den olduğu için 7'nin sağına ait. 3, 1'den olduğu için 1'in sağına ait. 6, 5'ten olduğu için 5'in sağına ait. 0, 1'den küçük olduğu için 1'in çözümüne. 9, 8'den olduğu için 8'in sağına ait. 4, 3'ten olduğu için 3'ün sağına ait. 2, 3'ten küçük olduğu için 3'ün çözümüne.
